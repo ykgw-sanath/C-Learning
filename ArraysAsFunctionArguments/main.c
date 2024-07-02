@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int sum(int *array, int size);
+int sum(int array[], int size);
 
 int main()
 {
@@ -13,7 +13,7 @@ int main()
     return 0;
 }
 
-int sum(int *array, int size)
+int sum(int array[], int size)
 {
     int sum = 0;
     for (int i = 0; i < size; i++)
