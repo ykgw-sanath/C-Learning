@@ -9,9 +9,9 @@ int main()
     printf("%d\n", *ptr);
     printf("%d\n", &a);
 
-    int b = 20;
-    ptr = &b;
+    // int b = 20;
+    // ptr = &b;
     printf("%d\n", *ptr);
-    printf("%d\n", &b);
+    // printf("%d\n", &b);
     return 0;
 }
