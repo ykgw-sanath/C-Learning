@@ -21,9 +21,5 @@ int main()
     strcpy(data.str, "Hello");
     printf("data.str : %s\n", data.str);
 
-    printf("memory of data.i : %d\n", &(data.i));
-    printf("value of data.f : %.2f\n", &(data.f));
-    printf("data.str : %s\n", &(data.str));
-
     return 0;
 }
