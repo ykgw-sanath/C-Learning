@@ -3,13 +3,19 @@
 int main()
 {
     int arr[] = {1, 2, 3, 4, 5};
-    int length = 0;
+    // int[] arr = [ 1, 2, 3 ];
+    int length = sizeof(arr) / sizeof(arr[0]);
 
-    while (arr[length])
+    int i = 0;
+
+    while (i < length)
     {
-        length++;
+        printf("%d\n", arr[i]);
+        i++;
     }
 
-    printf("Number of elements in array: %d\n", length);
+    printf("%d\n", sizeof(arr));
+    printf("%d\n", sizeof(arr[0]));
+
     return 0;
 }
