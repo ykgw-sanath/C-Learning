@@ -3,6 +3,16 @@
 int main()
 {
 
+    int x = 10;
+    int *ptr1 = &x;     // ptr1 points to x
+    int **ptr2 = &ptr1; // ptr2 points to ptr1
+
+    printf("Value of x: %d\n", **ptr2);
+
+    **ptr2 = 20;
+
+    printf("Updated value of x: %d\n", x); // Pointer to pointer example
+
     int value = 10;
     int *const ptr = &value; // Constant pointer to a integefer
 

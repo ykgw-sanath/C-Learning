@@ -2,7 +2,7 @@
 
 int main()
 {
-    int arr[] = {1, 2, 3, 4, 5};
+    char arr[] = {-1, 20000000, 3, 4, 5};
     // int[] arr = [ 1, 2, 3 ];
     int length = sizeof(arr) / sizeof(arr[0]);
 
@@ -10,7 +10,7 @@ int main()
 
     while (i < length)
     {
-        printf("%d\n", arr[i]);
+        printf("%u\n", arr[i]);
         i++;
     }
 

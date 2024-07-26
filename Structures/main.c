@@ -22,7 +22,7 @@ int main()
 
 void printStruct(struct Student student)
 {
-
+    printf("The student name is %s\n", student);
     printf("The student name is %s\n", student.name);
     printf("The student rollno is %d\n", student.rollno);
     printf("The student marks is %d\n", student.marks);
